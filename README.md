@@ -762,7 +762,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
+    - [x] Implement a max-heap:
         - [x] insert
         - [x] swim - needed for insert
         - [x] get_max - returns the max item, without removing it
@@ -770,7 +770,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [x] is_empty() - returns true if heap contains no elements
         - [x] extract_max - returns the max item, removing it
         - [x] sink - needed for extract_max
-        - [ ] remove(i) - removes item at index x
+        - [x] remove(i) - removes item at index x
         - [x] heapify - create a heap from an array of elements, needed for heap_sort
         - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
 
